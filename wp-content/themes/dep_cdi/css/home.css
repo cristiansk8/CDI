@@ -1,0 +1,177 @@
+@font-face {
+font-family: "Montserrat-bold";
+src: url("https://edificiouno83.com/wp-content/themes/dep_tomatis/fonts/Montserrat-Bold.otf") format("truetype");
+ }
+
+ @font-face {
+     font-family: 'Montserrat-ligth';
+     src:url('http://depura-creatividad.com/taplaces/wp-content/themes/dep_tap/fonts/Montserrat-Light.woff') format('woff');
+
+ }
+ @font-face {
+     font-family: 'Montserrat-thin';
+     src:url('http://depura-creatividad.com/taplaces/wp-content/themes/dep_tap/fonts/Montserrat-Thin.woff') format('woff');
+
+ }
+
+#slider-form, #recomendaciones, #productos, #formulario{
+  background-color: #F1F2F2;
+}
+#encuentranos{
+  box-shadow: 0px 6px 11px -2px rgb(68, 90, 181);
+}
+#slider-form{
+  padding-top: 150px;
+}
+.site-footer p{
+  font-size: 13px;
+  padding: 2% 0;
+}
+.navbar-default{
+  background-color: #fff;
+}
+.navbar-nav.navbar-center {
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+    padding: 15px 0;
+}
+.navbar-default .navbar-nav>li>a{
+  color: #666363;
+    font-family: Montserrat-ligth;
+    letter-spacing: 1px;
+    font-size: 21px;
+    font-weight: 700;
+}
+.navbar-default .navbar-nav>li{
+  padding: 0 20px;
+}
+.menu-fijo{
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  padding: 10px 0;
+  box-shadow: 0px 6px 11px -2px rgb(68, 90, 181);
+}
+
+ hr{
+   border-top: 1rem solid #445AB5;
+   width: 95%;
+   margin-bottom: 50px;
+ }
+ h1{
+   font-size: 75px;
+   color: #445AB5;
+   text-transform: uppercase;
+   text-align: center;
+   font-family: Montserrat-thin;
+ }
+ p{
+   color:#939598;
+   font-size: 21px;
+   font-family: Montserrat-ligth;
+ }
+
+.encuentranos{
+  display: inline-flex;
+  padding: 80px 0;
+}
+.encuentranos-item{
+  padding: 0 50px;
+}
+
+.recomendaciones-items {
+  display: flex;
+  padding: 80px 0;
+}
+.recomendaciones-item{
+  width: 33.3%;
+}
+.info-icon{
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+.info-icon span{
+  font-size: 84px;
+  color: #445AB5;
+  font-family: Montserrat-ligth;
+}
+.info-icon p{
+  margin-top: 37px;
+}
+.form-cf7{
+  margin: 8% 4% 8% 4%;
+}
+.slider-prod{
+  padding: 3%;
+}
+.product-item{
+  padding: 5%;
+  text-align: center;
+}
+.product-item p{
+  padding: 40px 0;
+}
+
+
+
+
+
+
+.wpcf7 form input[type=date], .wpcf7 form input[type=email], .wpcf7 form input[type=number], .wpcf7 form input[type=tel], .wpcf7 form input[type=text]{
+  width: 100%;
+    height: auto;
+    padding: 1rem 2.2rem;
+}
+.form-control{
+  font-size: 14px;
+  line-height: 1.428571;
+}
+.formulario-contacto{
+
+}
+.formulario-contacto h3{
+  color: #fff;
+  font-family: Montserrat-bold;
+}
+.formulario-contacto span{
+  color: #37277d;
+  font-family: the-real-magazine-2regular;
+}
+.wpcf7-submit{
+  background-color: #37277d;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Montserrat-bold;
+  margin: 15px;
+	margin-bottom:45px;
+}
+.boton-enviar{
+  margin: 10px;
+
+}
+
+
+.slick-dots{
+  margin-top: -30px;
+}
+
+@media (max-width: 767px) {
+  h1{
+    font-size: 30px;
+  }
+  p{
+    font-size: 17px;
+  }
+  .encuentranos{
+    display: block;
+  }
+  .recomendaciones-items {
+    display: block;
+  }
+  .recomendaciones-item{
+    width: 100%;
+    padding: 4%;
+  }
+}
