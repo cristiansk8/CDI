@@ -17,7 +17,7 @@
 </div>
 <![endif]-->
 
-<nav class="navbar navbar-default navbar-static-top">
+<!--<nav class="navbar navbar-default navbar-static-top">
   <div class="menu-fijo">
 		<div class="text-center">
 			<img id="logo" src="<?php bloginfo('url') ?>/wp-content/uploads/2019/09/Asset-1.png" alt="" width="120px" height="auto">

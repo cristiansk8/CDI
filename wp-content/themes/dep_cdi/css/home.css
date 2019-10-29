@@ -116,11 +116,34 @@ src: url("https://edificiouno83.com/wp-content/themes/dep_tomatis/fonts/Montserr
 
 
 
+.contruccion-wraper{
+  padding: 260px 0;
+  text-align: center;
+}
+.formulario h2{
+  font-weight: 700;
+}
+.logo img{
+  width: 300px;
+  height: auto;
+}
+.form-content{
+  margin: 40px 35%;
+  padding: 0 30px;
+  border: solid #789141 2px;
+}
+.info-formulario h2{
+  color: #789141;
+  font-weight: 700;
+  background-color: #f2f2f2;
+  margin-top: -21px;
+font-size: 40px;
+}
 
 
 
 .wpcf7 form input[type=date], .wpcf7 form input[type=email], .wpcf7 form input[type=number], .wpcf7 form input[type=tel], .wpcf7 form input[type=text]{
-  width: 100%;
+    width: 100%;
     height: auto;
     padding: 1rem 2.2rem;
 }
@@ -140,12 +163,11 @@ src: url("https://edificiouno83.com/wp-content/themes/dep_tomatis/fonts/Montserr
   font-family: the-real-magazine-2regular;
 }
 .wpcf7-submit{
-  background-color: #37277d;
+  background-color: #789141;
   color: #fff;
-  text-transform: uppercase;
   font-family: Montserrat-bold;
-  margin: 15px;
 	margin-bottom:45px;
+  font-size: 18px;
 }
 .boton-enviar{
   margin: 10px;
@@ -156,8 +178,23 @@ src: url("https://edificiouno83.com/wp-content/themes/dep_tomatis/fonts/Montserr
 .slick-dots{
   margin-top: -30px;
 }
-
+@media (max-width:1667px) {
+  .form-content{
+    margin: 40px 25%;
+  }
+}
 @media (max-width: 767px) {
+  .info-formulario h2{
+    margin-top: -14px;
+    font-size: 27px;
+  }
+  .contruccion-wraper{
+    padding: 160px 0;
+  }
+  .form-content{
+    margin: 40px 5%;
+
+  }
   h1{
     font-size: 30px;
   }
